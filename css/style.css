@@ -1008,6 +1008,11 @@ ul {
   gap: 10px;
   justify-content: center;
 }
+@media (max-width: 767px){
+  .events .info .time{
+    gap: 3px;
+  }
+}
 .events .info .time .unit {
   border: 1px solid #d4d4d4;
   border-radius: 6px;
